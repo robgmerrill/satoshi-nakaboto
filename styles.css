@@ -1,3 +1,7 @@
+body {
+  box-sizing: border-box;
+}
+
 nav {
   background: #fff;
   display: flex;
@@ -42,4 +46,18 @@ nav a:focus {
 
 .logo:hover {
   color: #9fa0a3;
+}
+
+.nakaboto-quote {
+  font-size: 40px;
+  color: #000;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  max-width: 900px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 50px;
+  font-family: 'Roboto', sans-serif;
 }
