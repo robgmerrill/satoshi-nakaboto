@@ -1,0 +1,45 @@
+nav {
+  background: #fff;
+  display: flex;
+  letter-spacing: 0.075em;
+}
+
+nav a {
+  background-color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  color: #9fa0a3;
+  padding: 0 5px;
+  padding-top: 10px;
+  font-size: 16px;
+  /* height: 30px; */
+}
+
+nav a:hover {
+  /* background-color: red; */
+  color: black;
+  background-color: #e8eaec;
+}
+
+nav a:focus {
+  /* background-color: red; */
+  color: black;
+  background-color: #e8eaec;
+}
+
+.logo {
+  background: rgb(72, 202, 249);
+  background: linear-gradient(
+    164deg,
+    rgba(72, 202, 249, 1) 1%,
+    rgba(147, 0, 255, 1) 100%
+  );
+  width: 75px;
+  text-align: center;
+  font-size: 24px;
+  padding-top: 5px;
+  padding-bottom: 7px;
+}
+
+.logo:hover {
+  color: #9fa0a3;
+}
