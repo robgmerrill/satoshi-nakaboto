@@ -147,6 +147,10 @@ nav a:focus {
   font-size: 20px;
 }
 
+.twitter-section {
+  /* width: 65%; */
+}
+
 /* .main-image > .side-image {
 	object-fit: scale-down;
 	width: 25%
