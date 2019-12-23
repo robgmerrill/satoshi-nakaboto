@@ -6,6 +6,12 @@ nav {
   background: #fff;
   display: flex;
   letter-spacing: 0.075em;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  -webkit-box-shadow: 1px 1px 19px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 1px 19px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 1px 19px 0px rgba(0, 0, 0, 0.75);
 }
 
 nav a {
@@ -61,3 +67,93 @@ nav a:focus {
   padding: 50px;
   font-family: 'Roboto', sans-serif;
 }
+
+.main-image {
+  max-width: 1200px;
+  /* overflow: hidden; */
+  /* margin: 0 auto; */
+  padding: 0 50px;
+  margin-top: 100px;
+  text-align: center;
+  display: grid;
+  /* place-items: center; */
+  grid-template-columns: 3fr 1fr;
+  grid-column-gap: 20px;
+  /* background-color: black; */
+  /* align-items: center; */
+  /* justify-items: center; */
+  /* max-width: 900px; */
+  /* height: 280px; */
+}
+
+.image {
+  background-image: url('assets/images/Screen\ Shot\ 2019-12-19\ at\ 2.12.28\ PM.png');
+  object-fit: scale-down;
+  min-height: 400px;
+  width: 100%;
+}
+
+.most-popular {
+  margin-bottom: 50px;
+}
+
+.side-image {
+  background-image: url('https://img-cdn.tnwcdn.com/image?fit=600%2C336&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F06%2Fbitcoinayy.png&signature=d8054e7f2921856dec607cfa887c5cb8');
+  object-fit: cover;
+  height: 200px;
+  width: 100%;
+  margin-bottom: 20px;
+  /* max-height: 100%; */
+}
+
+.most-popular-text {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.learn-more {
+  margin-top: 10px;
+  background-color: #591d9b;
+  color: white;
+  padding: 10px 105px;
+  border-radius: 5px;
+}
+
+.second-section {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 4fr 2fr;
+  column-gap: 20px;
+  max-width: 1200px;
+  padding: 0 50px;
+  height: 500px;
+}
+
+.second-section div {
+}
+
+.avatar {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.story-header {
+  font-size: 18px;
+}
+
+.story-author {
+  font-size: 20px;
+}
+
+/* .main-image > .side-image {
+	object-fit: scale-down;
+	width: 25%
+  max-height: 100%;
+} */
+/* .main-image > .side-image {
+  object-fit: cover;
+  width: 100%;
+  max-height: 100%;
+} */
