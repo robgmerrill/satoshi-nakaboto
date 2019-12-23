@@ -151,6 +151,24 @@ nav a:focus {
   /* width: 65%; */
 }
 
+.left-panel {
+display: grid;
+justify-items: center;
+/* display: flex; */
+/* justify-content: center; */
+/* align-items: center; */
+}
+
+
+h2 {
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+}
+/* i {
+  /* margin: 0 auto; */
+  /* margin-top: 15px; */
+/* } */ */
+
 /* .main-image > .side-image {
 	object-fit: scale-down;
 	width: 25%
